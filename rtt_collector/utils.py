@@ -43,4 +43,5 @@ def client(ip):
     # print ('Time:', t4-t3)
     # print ('Bandwidth:', round((BUFSIZE*count*0.001) / (t4-t3), 3),)
     # print ('Kb/sec.')
-    return round((BUFSIZE*count*0.001) / (t4-t3), 3)
+    # return round((BUFSIZE*count*0.001) / (t4-t3), 3)
+    return (t5-t1)
